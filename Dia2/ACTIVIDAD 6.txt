@@ -1,0 +1,6 @@
+mkdir /home/bryan6612/herramientas
+mkdir /home/bryan6612/herramientas/deb
+mv /home/bryan6612/Downloads/code_1.81.1-1691620686_amd.deb /home/bryan6612/herramientas
+mkdir bak
+cp /home/bryan6612/Downloads/code_1.81.1-1691620686_amd.deb home/bryan6612/bak
+sudo dpkg -i /home/bryan6612/herramientas/deb/code_1.81.1-1691620686_amd.deb
