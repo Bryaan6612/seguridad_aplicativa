@@ -1,0 +1,9 @@
+b=$(nmap localhost |tail -n1 | cut -d " " -f 6 | cut -c 2)
+
+echo "Host activos: $b"
+
+
+
+
+
+
