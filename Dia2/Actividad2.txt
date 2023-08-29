@@ -1,0 +1,1 @@
+sudo useradd -m -p "1234" -c 'Act2' -s /bin/zsh $1;  
